@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.contactContainer {
+.namesContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,20 +36,10 @@
     padding: 4px;
 }
 
-.listItems .head {
-    text-decoration: none;
-    font-size: 30px;
-    font-family: 'roboto';
-}
-
-.box {
-    max-height: 450px;
-    overflow-y: scroll;
-    background: #121212;
-    color: whitesmoke;
-    width: 200px;
-    border-radius: 12px;
-    margin-top: 20px;
+.listItemsName {
+    border: 1px solid grey;
+    width: 500px;
+    background-color: aliceblue;
 }
 
 .box::-webkit-scrollbar {
