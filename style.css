@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Ubuntu+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    padding: 30px;
+    font-family: 'roboto';
+    text-decoration: underline;
+}
+
+.search {
+    padding: 5px;
+    font-family: 'ubuntu mono';
+    width: 400px;
+}
+
+.listItems {
+    padding: 20px;
+    list-style: none;
+    font-family: 'ubuntu mono';
+}
+
+.listItemsName {
+    padding: 4px;
+}
+
+.listItems .head {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'roboto';
+}
+
+.box {
+    max-height: 450px;
+    overflow-y: scroll;
+    background: #121212;
+    color: whitesmoke;
+    width: 200px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.box::-webkit-scrollbar {
+    display: none;
+}
