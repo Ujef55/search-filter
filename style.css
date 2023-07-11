@@ -23,7 +23,7 @@
 .search {
     padding: 5px;
     font-family: 'ubuntu mono';
-    width: 400px;
+    width: 300px;
 }
 
 .listItems {
@@ -39,7 +39,14 @@
 .listItemsName {
     border: 1px solid grey;
     width: 500px;
+    padding: 8px;
     background-color: aliceblue;
+}
+
+.box {
+    height: 400px;
+    overflow: auto;
+    margin-top: 40px;
 }
 
 .box::-webkit-scrollbar {

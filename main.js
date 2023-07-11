@@ -1,5 +1,4 @@
 const search = document.querySelector('#search');
-const box = document.querySelector('.box');
 
 
 const searchFilter = () => {
